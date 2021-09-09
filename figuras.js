@@ -40,24 +40,19 @@ console.groupEnd
 // Código del círculo
 console.group("Cirulo")
 
-const 
+const radioCirculo = 4; 
+console.log("el radio del círculo es: " + radioCirculo + "cm")
 
-console.log(
-    "los lados del triángulo miden: " +
-    + ladoTriangulo1
-    + " cm, "
-    + ladoTriangulo2
-    + " cm, "
-    + baseTriangulo
-    + " cm"
-)
+const pi = Math.PI; 
+console.log("el valor de PI es: " + pi)
 
-console.log("la altura del triángulo es: " + alturaTriangulo + " cm")
+const diametroCirculo = radioCirculo * 2;
+console.log("el diámetro del círculo es: " + diametroCirculo + " cm")
 
-const perimetroTriangulo = ladoTriangulo1 + ladoTriangulo2 + baseTriangulo; 
-console.log("el perimetro del triángulo es: " + perimetroTriangulo  + " cm")
+const perimetroCirculo = diametroCirculo * pi; 
+console.log("el perimetro del círculo es: " + perimetroCirculo  + " cm")
 
-const areaTriangulo = (baseTriangulo * alturaTriangulo) / 2; 
-console.log("el área del triángulo es: " + areaTriangulo + " cm2")
+const areaCirculo = (radioCirculo * radioCirculo) * pi ; 
+console.log("el área del círculo es: " + areaCirculo + " cm2")
 
 console.groupEnd
